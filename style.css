@@ -1,10 +1,14 @@
 body {
-  background-color: rgb(25, 170, 100);
+  background-color: rgb(255, 255, 255);
 }
 
 /* Style Navbar */
 .navbar {
   font-size: 18px;
+}
+
+.nav-item {
+  margin: 10px;
 }
 
 .navbar-brand {
