@@ -2,11 +2,35 @@ body {
   background-color: rgb(25, 170, 100);
 }
 
+/* Style Navbar */
+.navbar {
+  font-size: 18px;
+}
+
 .navbar-brand {
   font-weight: 600;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .nav-link.active {
   font-weight: 600;
+}
+
+/* Style Section */
+#section1 {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 100vh;
+  width: 100%;
+  padding-top: 230px;
+}
+
+.buttonDaftar {
+  border: none;
+  background: none;
+  margin-right: 10px;
+  color: white;
+}
+
+.img-section {
+  height: 90%;
 }
