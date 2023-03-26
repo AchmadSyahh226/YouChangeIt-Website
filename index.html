@@ -20,12 +20,13 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-transparent navbar-light fixed-top">
-      <div class="container">
+      <div class="d-flex container">
+        <!-- Navbar Logo -->
         <a class="navbar-brand text-white" href="#">
           <img src="assets/LogoUChangeIt.png" alt="Logo" style="width: 30px" class="d-inline-block align-text-top me-2" />
           UChangeIt
         </a>
-        <ul class="navbar-nav mx-auto">
+        <ul class="navbar-nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link active text-white" href="#">Beranda</a>
           </li>
@@ -39,8 +40,14 @@
             <a class="nav-link text-white" href="#">Tentang</a>
           </li>
         </ul>
-        <button class="buttonDaftar">Daftar</button>
-        <a href="masuk.html" class="btn btn-light text-success rounded-3" style="font-weight: 600">Masuk</a>
+        <ul class="navbar-nav">
+          <li class="account">
+            <a class="nav-link text-white" href="daftar.html">Daftar</a>
+          </li>
+          <li class="account">
+            <a href="masuk.html" class="btn btn-light text-success rounded-3" style="font-weight: 600">Masuk</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- Section Utama -->
@@ -58,8 +65,9 @@
     <!-- Section Layanan -->
     <div class="section">
       <div class="container">
-        <div class="col-12">
+        <div class="col-12 text-center">
           <h1>Layanan Untuk Anda</h1>
+          <span class="title-sub">Solusi untuk mengubah kepribadian Anda</span>
         </div>
       </div>
     </div>
