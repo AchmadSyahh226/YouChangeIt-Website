@@ -77,10 +77,28 @@ body {
 .card-services {
   background-color: rgb(65, 161, 115);
   border-radius: 10px;
-  margin: 30px 10px 110px 10px;
-  padding: 20px 30px;
+  margin: 30px 25px 135px 25px;
+  padding: 35px 30px;
 }
 
 .header {
   padding-top: 50px;
+}
+
+.container-fluid {
+  background-color: rgb(151, 247, 201);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(20, 120, 72);
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  color: rgb(151, 247, 201);
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
 }
