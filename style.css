@@ -84,3 +84,15 @@ body {
 .header {
   padding-top: 50px;
 }
+
+.container-fluid-kontak {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 75vh;
+  width: 100%;
+}
+
+.container-mail{
+  background: rgba(46, 126, 87, 0.639);
+  height: 10vh;
+  width: 100%;
+}
