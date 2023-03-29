@@ -2,6 +2,23 @@ body {
   background-color: rgb(151, 247, 201);
 }
 
+/* h1, h2, h3, h4, h5, dst */
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: rgb(20, 120, 72);
+  font-family: "Poppins", sans-serif;
+  margin-top: 70px;
+}
+
+h3 {
+  color: rgb(151, 247, 201);
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+/* tutup h1, h2, h3, h4, h5, dst */
+
 /* Style Navbar */
 .navbar {
   font-size: 18px;
@@ -19,6 +36,7 @@ body {
 .nav-link.active {
   font-weight: 600;
 }
+/* Tutup Navbar */
 
 /* Style Section */
 #section1 {
@@ -28,6 +46,17 @@ body {
   padding-top: 200px;
 }
 
+.card-services {
+  background-color: rgb(65, 161, 115);
+  border-radius: 10px;
+  margin: 50px 25px 135px 25px;
+  padding: 40px 30px;
+}
+
+.img-section {
+  height: 90%;
+}
+
 .buttonDaftar {
   border: none;
   background: none;
@@ -35,10 +64,28 @@ body {
   color: white;
 }
 
-.img-section {
-  height: 90%;
+.header {
+  padding-top: 50px;
 }
 
+.container-fluid-kontak {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 89vh;
+  width: 100%;
+}
+
+.container-mail {
+  background: rgba(46, 126, 87, 0.639);
+  height: 10vh;
+  width: 100%;
+}
+
+.container-fluid-layanan {
+  background-color: rgb(151, 247, 201);
+}
+/* Tutup style section */
+
+/* Login dan Register */
 .container-masuk {
   background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
   height: 100vh;
@@ -73,45 +120,4 @@ body {
   font-size: 13px;
   position: 20px;
 }
-
-.card-services {
-  background-color: rgb(65, 161, 115);
-  border-radius: 10px;
-  margin: 50px 25px 135px 25px;
-  padding: 40px 30px;
-}
-
-.header {
-  padding-top: 50px;
-}
-
-.container-fluid-kontak {
-  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
-  height: 89vh;
-  width: 100%;
-}
-
-.container-mail {
-  background: rgba(46, 126, 87, 0.639);
-  height: 10vh;
-  width: 100%;
-}
-
-.container-fluid-layanan {
-  background-color: rgb(151, 247, 201);
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 40px;
-  color: rgb(20, 120, 72);
-  font-family: "Poppins", sans-serif;
-  margin-top: 70px;
-}
-
-h3 {
-  color: rgb(151, 247, 201);
-  margin-top: 15px;
-  font-size: 30px;
-  font-family: "Poppins", sans-serif;
-}
+/* Tutup Login dan Register */
