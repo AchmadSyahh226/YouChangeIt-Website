@@ -46,6 +46,15 @@ h3 {
   padding-top: 200px;
 }
 
+/* Style tipsntrick.html */
+#judul {
+  background-color: rgb(108, 117, 125);
+  height: 30vh;
+  width: 100%;
+  padding-top: 20vh;
+}
+/* Tutup style tipsntrick.html */
+
 .card-services {
   background-color: rgb(65, 161, 115);
   border-radius: 10px;
