@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(151, 247, 201);
 }
 
 /* Style Navbar */
@@ -77,8 +77,8 @@ body {
 .card-services {
   background-color: rgb(65, 161, 115);
   border-radius: 10px;
-  margin: 30px 25px 135px 25px;
-  padding: 35px 30px;
+  margin: 50px 25px 135px 25px;
+  padding: 40px 30px;
 }
 
 .header {
@@ -87,11 +87,11 @@ body {
 
 .container-fluid-kontak {
   background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
-  height: 75vh;
+  height: 89vh;
   width: 100%;
 }
 
-.container-mail{
+.container-mail {
   background: rgba(46, 126, 87, 0.639);
   height: 10vh;
   width: 100%;
@@ -106,6 +106,7 @@ h2 {
   font-size: 40px;
   color: rgb(20, 120, 72);
   font-family: "Poppins", sans-serif;
+  margin-top: 70px;
 }
 
 h3 {
