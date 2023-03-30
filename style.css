@@ -38,13 +38,19 @@ h3 {
 }
 /* Tutup Navbar */
 
-/* Style Section */
-#section1 {
-  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+/* Style target.html */
+#note {
   height: 100vh;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 10px;
 }
+
+#judulTarget {
+  height: 25vh;
+  padding-top: 15vh;
+}
+
+/* Tutup Style target.html */
 
 /* Style tipsntrick.html */
 #judul {
@@ -54,6 +60,14 @@ h3 {
   padding-top: 20vh;
 }
 /* Tutup style tipsntrick.html */
+
+/* Style Section */
+#section1 {
+  background: linear-gradient(160deg, rgb(65, 161, 115), rgb(33, 100, 70));
+  height: 100vh;
+  width: 100%;
+  padding-top: 200px;
+}
 
 .card-services {
   background-color: rgb(65, 161, 115);

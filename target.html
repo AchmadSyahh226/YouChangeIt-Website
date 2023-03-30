@@ -49,5 +49,59 @@
         </ul>
       </div>
     </nav>
+    <!-- Tutup Navbar -->
+
+    <!-- Section judul -->
+    <section id="judulTarget">
+      <div class="container-fluid text-center">
+        <div class="row text-light bg-secondary">
+          <h1 class="text-uppercase">Target Perubahan</h1>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section Form -->
+    <section id="note">
+      <div class="container-fluid">
+        <div class="row mb-3 justify-content-center">
+          <div class="col-lg-6">
+        <!-- form -->
+            <form action="" class="was-validated">
+          <!-- input Judul -->
+          <div class="mb-4">
+            <label for="labelJudul" class="form-label" style="color: black;">Judul Perubahan</label>
+            <input type="text" class="form-control" id="inputJudul" placeholder="Masukkan judul perubahan perilaku Anda" required>
+            <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Wajib diisi</div>
+          </div>
+          <!-- input Deskripsi -->
+          <div class="mb-4">
+              <label for="desc" class="form-label" style="color: black;">Deskripsi</label>
+              <textarea class="form-control" id="inputDesc" placeholder="Masukkan deskripsi perubahan perilaku Anda" rows="4" required></textarea>
+              <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Wajib diisi</div>
+            </div>
+            <!-- Input Batas Waktu -->
+            <div class="mb-4">
+              <label for="labelTgl" class="form-label" style="color: black;">Batas Waktu</label>
+              <input type="date" class="form-control" id="inputTgl" required>
+              <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Wajib diisi</div>
+            </div>
+            <!-- Input Bukti Foto -->
+            <div class="mb-4">
+              <label for="labelUpload" class="form-label" style="color: black;">Bukti foto melakukan perubahan</label>
+              <input type="file" class="form-control" id="inputFile" required>
+              <div class="valid-feedback">Valid</div>
+            <div class="invalid-feedback">Wajib diisi</div>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+          </form>
+      </div>
+    </div>
+    </section>
   </body>
 </html>
