@@ -88,10 +88,6 @@ h3 {
   padding: 40px 30px;
 }
 
-.img-section {
-  height: 90%;
-}
-
 .buttonDaftar {
   border: none;
   background: none;
@@ -213,3 +209,10 @@ h3 {
 }
 
 /* tutup upload */
+
+/* Responsive Picture */
+@media (max-width: 769px) {
+  .img-section {
+    display: none;
+  }
+}
