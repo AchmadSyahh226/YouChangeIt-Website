@@ -251,20 +251,15 @@
     </div>
     
     <!-- upload file -->
-    <div class="container pb-5" style="padding-left: 25%;">
-    <form class="upload">
-      <div class="upload_body">
-        <i class="ri-file-upload-line"></i>
-        <p> drag file here to upload</p>
-      </div>
-      <footer class="upload_footer">
-        <label for="upload_input" class="upload_button">
-          <p><span>or</span> choose file</p>
-          <input type="file" id="upload_input"/>
-        </label>
-      </footer>
-    </form>
-  </div>
+    <div class="mb-4" style="padding-left: 20%; padding-right: 20%;">
+      <label for="labelUpload" class="form-label" style="color: black;">Bukti foto mengerjakan soal</label>
+      <input type="file" class="form-control" id="inputFile" required>
+      <div class="valid-feedback">Valid</div>
+    <div class="invalid-feedback">Wajib diisi</div>
+    </div>
+    <div class="mb-4 text-center pb-5">
+      <button type="submit" class="btn btn-primary">Simpan</button>
+    </div>
   </section>
   </body>
 </html>
