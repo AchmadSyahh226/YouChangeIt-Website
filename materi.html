@@ -15,6 +15,8 @@
 
     <!-- Icon Title -->
     <link rel="icon" href="assets/LogoUChangeIt.png" type="image/x-icon" />
+
+    
   </head>
   <body>
     <!-- Navbar -->
@@ -32,27 +34,19 @@
         <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active text-white" href="#section1">Beranda</a>
+            <a class="nav-link text-white" href="index.html">Beranda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#section2">Layanan</a>
+            <a class="nav-link active text-white" href="materi.html">Materi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#Kontak">Kontak</a>
+            <a class="nav-link text-white" href="target.html">Target</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#Tentang">Tentang</a>
+            <a class="nav-link text-white" href="tipsntrik.html">Tips & Trik</a>
           </li>
         </ul>
       </div>
-      <ul class="navbar-nav">
-        <li class="account">
-          <img src="assets/user.png" alt="Logo" style="width: 30px" class="d-inline-block align-text-top me-2" />
-        </li>
-        <li class="account mx-auto">
-          <a href="masuk.html" class="username" style="font-weight: 400; font-size: large; color: white">Hamba Allah</a>
-        </li>
-      </ul>
       </div>
     </nav>
     <!-- Tutup Navbar -->
@@ -60,7 +54,7 @@
     <section id="Referensi">
       <div class="container">
         <div class="row text-light">
-          <h1 class="text-uppercase">Referensi</h1>
+          <h1><a href="javascript:history.back()"><img src="assets/back-icons.png"></a> Referensi</h1>
         </div>
       </div>
       <div class="container pt-4 pb-3 row mb-4">
@@ -251,17 +245,37 @@
     </div>
     
     <!-- upload file -->
-    <form action="" class="was-validated">
+    <form action="" class="needs-validation" novalidate>
     <div class="mb-4" style="padding-left: 20%; padding-right: 20%;">
       <label for="labelUpload" class="form-label" style="color: black;">Bukti foto mengerjakan soal</label>
       <input type="file" class="form-control" id="inputFile" required>
       <div class="valid-feedback">Valid</div>
-      <div class="invalid-feedback">Wajib diisi</div>
+      <div class="invalid-feedback">File belum terisi</div>
     </div>
     <div class="mb-4 text-center pb-5">
       <button type="submit" class="btn btn-primary">Simpan</button>
     </div>
   </form>
   </section>
+
+  <!-- Javascript -->
+  <script>
+(function () {
+  'use strict'
+  var forms = document.querySelectorAll('.needs-validation')
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+  </script>
+<!-- Tutup Javascript -->
   </body>
 </html>
