@@ -65,32 +65,32 @@
         <div class="row mb-3 justify-content-center">
           <div class="col-lg-6">
         <!-- form -->
-            <form action="" class="needs-validation" novalidate>
+            <form action="target.php" class="needs-validation" novalidate method="post">
           <!-- input Judul -->
           <div class="mb-4">
             <label for="labelJudul" class="form-label" style="color: black;">Judul Perubahan</label>
-            <input type="text" class="form-control" id="inputJudul" placeholder="Masukkan judul perubahan perilaku Anda" required>
+            <input type="text" class="form-control" name="judul" id="inputJudul" placeholder="Masukkan judul perubahan perilaku Anda" required>
             <div class="valid-feedback">Valid</div>
             <div class="invalid-feedback">Wajib diisi</div>
           </div>
           <!-- input Deskripsi -->
           <div class="mb-4">
               <label for="desc" class="form-label" style="color: black;">Deskripsi</label>
-              <textarea class="form-control" id="inputDesc" placeholder="Masukkan deskripsi perubahan perilaku Anda" rows="4" required></textarea>
+              <textarea class="form-control" name="deskripsi" id="inputDesc" placeholder="Masukkan deskripsi perubahan perilaku Anda" rows="4" required></textarea>
               <div class="valid-feedback">Valid</div>
             <div class="invalid-feedback">Wajib diisi</div>
             </div>
             <!-- Input Batas Waktu -->
             <div class="mb-4">
               <label for="labelTgl" class="form-label" style="color: black;">Batas Waktu</label>
-              <input type="date" class="form-control" id="inputTgl" required>
+              <input type="date" class="form-control" name="batas_waktu" id="inputTgl" required>
               <div class="valid-feedback">Valid</div>
             <div class="invalid-feedback">Wajib diisi</div>
             </div>
             <!-- Input Bukti Foto -->
             <div class="mb-4">
               <label for="labelUpload" class="form-label" style="color: black;">Bukti foto melakukan perubahan</label>
-              <input type="file" class="form-control" id="inputFile" required>
+              <input type="file" class="form-control" name="foto" id="inputFile" required>
               <div class="valid-feedback">Valid</div>
             <div class="invalid-feedback">Wajib diisi</div>
             </div>
